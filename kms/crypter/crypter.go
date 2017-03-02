@@ -1,4 +1,4 @@
-// Copyright 2017 Google Inc. All rights reserved.
+e// Copyright 2017 Google Inc. All rights reserved.
 // Use of this source code is governed by the Apache 2.0
 // license that can be found in the LICENSE file.
 
@@ -38,6 +38,7 @@ func main() {
 	var output []byte
 	switch command {
 	case "encrypt":
+		fmt.Println("your mom")
 		output, err = encrypt(projectID, keyRing, cryptoKey, input)
 		if err != nil {
 			log.Fatalf("Error while encrypting: %v", err)
